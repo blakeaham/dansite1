@@ -239,7 +239,8 @@ td, th {
         page-break-after: avoid
     }
     .navbar {
-        display: none
+        display: none;
+        text-shadow: none
     }
     .btn>.caret, .dropup>.btn>.caret {
         border-top-color: #000!important
@@ -3657,6 +3658,7 @@ tbody.collapse.in {
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    text-shadow: none;
 }
 
 .dropdown-menu.pull-right {
