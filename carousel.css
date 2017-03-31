@@ -9,6 +9,15 @@ body {
 }
 
 
+/* Attemp to fill mobile carousel. See (http://stackoverflow.com/questions/14119577/how-to-make-the-image-scale-to-full-height-in-bootstrap-carousel)*/
+html,body{height:100%;}
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{width:100%;height:100%;background-position:center;background-size:cover;}
+
+
+
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -52,7 +61,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 500px;
-  background-color: #777;
+  background-color: transparent;
   overflow-y: hidden;
 }
 .carousel-inner > .item > img {
@@ -63,6 +72,8 @@ body {
   height: auto;
   overflow-y: hidden;
 }
+
+
 
 
 /* MARKETING CONTENT

@@ -6094,7 +6094,6 @@ button.close {
 
     position: relative;
     background-color: rgba(3, 15, 88, .9);
-    font-size: 250%;
     line-height: 150%;
     text-align: center;
     -webkit-background-clip: padding-box;
@@ -6196,6 +6195,8 @@ button.close {
         margin: 30px auto
     }
     .modal-content {
+
+      font-size: 250%;
         -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
         box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
     }
